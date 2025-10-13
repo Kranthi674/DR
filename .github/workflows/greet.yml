@@ -1,3 +1,4 @@
+# ...existing code...
 name: Hello World
 
 on:
@@ -15,4 +16,5 @@ jobs:
       - name: Print greeting
         env:
           RECIPIENT: ${{ github.event.inputs.recipient }}
-        run: echo "Hello, ${RECIPIENT}!
+        run: echo "Hello, ${RECIPIENT}!"
+# ...existing code...
